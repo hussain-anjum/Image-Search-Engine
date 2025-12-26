@@ -5,10 +5,8 @@ Visual Match is a responsive, modern image search application that allows users 
 ## Features
 
 - **Image Search**: Instantly fetch and display images based on user keywords.
-- **Infinite-Style Pagination**: "Show More" functionality to load additional results without refreshing.
 - **Modern UI/UX**:
   - Dark theme with animated gradient backgrounds.
-  - Glassmorphism (blur) effects on headers and buttons.
   - Smooth hover animations and transitions.
 - **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
 - **Direct Links**: Click on any image to view the source on Unsplash.
@@ -24,7 +22,7 @@ Visual Match is a responsive, modern image search application that allows users 
 
 ```text
 Image Search Engine/
-├── images/               # Assets (Logo, Favicon)
+├── images/              # Assets (Logo, Favicon)
 ├── .gitignore           # Git ignore rules
 ├── apiKey.js            # Configuration file for API Key (Not tracked by Git)
 ├── index.html           # Main HTML structure
@@ -39,7 +37,7 @@ Since the API key is secured and not tracked by Git (via .gitignore), you will n
 1. Clone the repository:
 
    ```
-   git clone [https://github.com/your-username/image-search-engine.git](https://github.com/your-username/image-search-engine.git)
+   git clone [https://github.com/hussain-anjum/image-search-engine.git](https://github.com/hussain-anjum/image-search-engine.git)
    cd image-search-engine
    ```
 
