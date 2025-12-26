@@ -37,8 +37,8 @@ Since the API key is secured and not tracked by Git (via .gitignore), you will n
 1. Clone the repository:
 
    ```
-   git clone [https://github.com/hussain-anjum/image-search-engine.git](https://github.com/hussain-anjum/image-search-engine.git)
-   cd image-search-engine
+   git clone [https://github.com/hussain-anjum/Image-Search-Engine.git](https://github.com/hussain-anjum/Image-Search-Engine.git)
+   cd Image-Search-Engine
    ```
 
 2. Get an API Key:
