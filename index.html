@@ -3,21 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search Engine</title>
+    <title>Visual Match-Image Search Engine</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Image Search Engine</h1>
-    <form id="search-form">
-      <input
-        type="text"
-        id="search-box"
-        placeholder="Search anything here..."
-      />
-      <button>Search</button>
-    </form>
+    <header>
+      <div class="logo-container">
+        <img src="images/Logo.png" alt="Visual Match Logo" class="logo" />
+        <div class="site-identity">
+          <h1 class="main-title">Visual Match</h1>
+          <p class="motto">Find similar images instantly</p>
+        </div>
+      </div>
+
+      <form id="search-form">
+        <div class="input-group">
+          <input
+            type="text"
+            id="search-box"
+            placeholder="Search anything here..."
+          />
+          <button type="submit">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+          </button>
+        </div>
+      </form>
+    </header>
+    <div id="welcome-message" class="welcome-section">
+      <div class="welcome-content">
+        <h2 class="welcome-title">Discover the Visual World</h2>
+        <p class="welcome-subtitle">
+          Powered by the Unsplash API. Enter a keyword above to find stunning
+          photography matching your vision.
+        </p>
+        <div class="welcome-icon">
+          <svg
+            width="80"
+            height="80"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+            <polyline points="21 15 16 10 5 21"></polyline>
+          </svg>
+        </div>
+      </div>
+    </div>
+
     <div id="search-result"></div>
     <button id="show-more-btn">Show More</button>
+
+    <footer>
+      <div class="footer-content">
+        <p class="footer-text">
+          Developed by
+          <span class="developer-name">Md. Hussain Anjum Ratul</span>
+        </p>
+        <p class="footer-credits">Powered by Unsplash API</p>
+      </div>
+    </footer>
 
     <script src="apiKey.js"></script>
     <script src="script.js"></script>
